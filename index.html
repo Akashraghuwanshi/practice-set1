@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <script  defer src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1>Bill Calculator!</h1>
+    <p> If the bill value from 50 and 300 ,then the tip is 15% of the bill .If the bill greater then 300 then tip is 20% of the bill.Min bill must be greater than 50Rs.</p>
+    Enter the bill amount: <input type="number" id="bill" placeholder="Rs">
+    <br> <br>
+    <button class="btn btn-secondary" type="button" onclick="myCalc()">Submit</button>
+    <br>
+    <br>
+    <h3 id="tip">Tip:</h3>
+    <h3 id="total">Total:</h3>
+    <h3 id="wish"></h3>
+</div>
+</body>
+</html>
